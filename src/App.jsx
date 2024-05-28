@@ -6,6 +6,7 @@ import Home from './components/home'
 import Aos from 'aos';
 import 'aos/dist/aos.js'
 import 'aos/dist/aos.css'
+import Lecture from './components/Lecture'
 
 
 function App() {
@@ -39,7 +40,7 @@ function App() {
           <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Lectures</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Pricing</a>
@@ -51,6 +52,7 @@ function App() {
     </div>
   </nav>
   <Home></Home>
+  <Lecture></Lecture>
   </div>
   
   )
