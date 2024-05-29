@@ -1,5 +1,5 @@
 import reactIcon from "../assets/react.svg";
-import musk from '../assets/GettyImages-1258741760-1bc7f77d4aa14907a27e7a265a55e314.jpg'
+import r from "../assets/721070bd277379802d3d0d1020e45ab4.jpg";
 
 export default function Lecture() {
   return (
@@ -11,7 +11,7 @@ export default function Lecture() {
           
           <div className="col-10 col-sm-8 col-lg-6" data-aos='fade-right'> 
             <img
-              src={musk}
+              src={r}
               className="d-block mx-lg-auto img-fluid"
               alt="Bootstrap Themes"
               width="600"
